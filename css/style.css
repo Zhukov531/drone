@@ -1,0 +1,332 @@
+/* Import nullstyle */
+@import url(./_nullstyle.css);
+@import url("../fonts/font\ Graphik/stylesheet.css");
+
+body{
+    background: rgba(24, 24, 24, 1);
+    color: white;
+}
+/* hero */
+.hero {
+    height: 100vh;
+    background: url(../img/screens.png) black;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Graphik';
+    text-align: center;
+    color: white;
+}
+.hero-content {
+    height: 100%;
+    padding: 0 50px;
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.menu {
+}
+.hero-title {
+    margin-top: 80px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.hero-text {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.hero-btn1, .hero-btn2 {
+    margin-top: 40px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+.hero-btn1 {
+    background: rgba(68, 82, 254, 1);
+}
+.hero-btn2{
+    margin-top: 20px;
+    background: transparent;
+    border: 1px solid white;
+}
+/* ------------------- Section 2 */
+
+.section-1 {
+    padding: 0px 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.section-1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-1-title {
+    font-family: graphik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0.20000000298023224px;
+    
+}
+.section-1-text {
+    font-family: graphik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin-top: 20px;
+}
+.img1 {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 250px;
+}
+.img2{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+    position: absolute;
+    top: 970px;
+}
+.section-1-facts{
+    margin-top: 100px;
+}
+.section-1-facts-1 {
+    display: flex;
+    margin-top: 65px;
+}
+.section-1-facts h1{
+    font-family: graphik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 10px;
+    text-align: left;
+    width: 190px;
+}
+.facts-img{
+    width: 18px;
+    height: 20px;
+}
+.facts-img3{
+    width: 35px;
+    height: 20px;
+}
+.section-1-facts p {
+    margin-top:30px;
+    text-align: left;
+    max-width: 180px;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: graphik;
+    font-weight: 300;
+}
+/* -------------------------------- Contents section 2 */
+
+.section-2 {
+    margin: 100px 0;
+}
+.section-2-content {
+    text-align: center;
+    max-width: 280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2-h1 {
+    font-family: graphik;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.20000000298023224px;
+}
+.section-2-p {
+    margin-top: 20px;
+    font-family: graphik;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    width: 200px;
+}
+.section-2-blocks {
+    margin-top: 50px;
+}
+.section-2-block1 {
+    margin-top: 50px;
+    color: black;
+    max-width: 250px;
+    background: white;
+    border-radius: 10px;
+    padding: 40px 25px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.section-2-block-h1 {
+    font-family: graphik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.10000000149011612px;
+    max-width: 140px;
+    text-align: center;
+}
+.section-2-block-p {
+    margin-top: 20px;
+    font-family: graphik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+}
+.section-2-btn button{
+    margin-top: 40px;
+    padding: 15px 50px;
+    background: rgba(68, 82, 254, 1);
+    color: white;
+    font-size: 16px;
+}
+.section-2-img1 {
+    margin-top: 40px;
+    width: 200px;
+}
+
+/* -------------------------------- Contents section 3 Gallery ----- */
+
+.section-3 {
+    margin: 100px 0;
+}
+.section-3-content {
+    max-width: 280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section-3-h1 {
+    font-family: graphik;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0.20000000298023224px;
+}
+.section-3-p {
+    margin-top: 10px;
+    font-family: graphik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    max-width: 250px;
+}
+.section-3-img {
+    margin-top: 50px;
+}
+.img-3-1, .img-3-2, .img-3-3, .img-3-4 {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-3-2, .img-3-3, .img-3-4 {
+    margin-top: 30px;
+}
+.section-3-btn {
+    margin-top: 50px;
+}
+.section-3-btn button{
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+/* -------------------------------- Contents section 4 ----- */
+
+.section-4 {
+    margin: 100px 0;
+}
+.section-4-content {
+    max-width: 280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section-4-h1 {
+    font-family: graphik;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0.20000000298023224px;
+}
+.section-4-p {
+    margin-top: 10px;
+    font-family: graphik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    max-width: 250px;
+}
+.section-4-img {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-4-img .section-4-img-3{
+    height: 60px;
+}
+.section-4-img img{
+    width: 50px;
+    height: 50px;
+}
+.section-4-img-block2{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-4-img-block2 img{
+    width: 50px;
+    height: 50px;
+}
+.section-4-img-block2 .section-4-img-6{
+    height: 20px;
+}
+.section-4-btn {
+    margin-top: 50px;
+}
+.section-4-btn button{
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+/* -------------------------------- Contents section 5 ----- */
+
