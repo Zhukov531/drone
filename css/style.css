@@ -1,5 +1,5 @@
 /* Import nullstyle */
-@import url(./_nullstyle.css);
+@import url(../css/_nullstyle.css);
 @import url("../fonts/font\ Graphik/stylesheet.css");
 
 body{
