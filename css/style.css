@@ -5,6 +5,7 @@
 body{
     background: rgba(24, 24, 24, 1);
     color: white;
+    margin: 0;
 }
 /* hero */
 .hero {
