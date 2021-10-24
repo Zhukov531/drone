@@ -16,6 +16,7 @@ body{
     font-family: 'Graphik';
     text-align: center;
     color: white;
+    margin: 0;
 }
 .hero-content {
     height: 100%;
